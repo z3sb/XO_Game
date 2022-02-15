@@ -41,6 +41,18 @@ span{
     justify-content: center;
     align-items: center;
 }
+@media (max-width:320px){
+    .square{
+        width: 75px;
+        height: 75px;
+    }
+    .game{
+        width: 250px;
+    }
+    .title{
+        width: 240px;
+    }
+}
 .square:hover{
     background-color: #000;
 }
