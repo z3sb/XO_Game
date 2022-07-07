@@ -11,6 +11,7 @@ h1{
     background-color: coral;
     padding: 15px;
     border-radius: 20px;
+    font-family: sans-serif;
 }
 .game{
     width: 355px;
