@@ -31,6 +31,7 @@ function winnner(){
     
     else if (squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != ''){
         title.innerHTML = "Game Over";
+        setInterval(() => {title.innerHTML += '.'}, 1000);
         setTimeout(()=> {location.reload()}, 4000);
     }
 }
